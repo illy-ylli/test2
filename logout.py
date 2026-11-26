@@ -21,3 +21,8 @@ def start_session(
 def logout(token: str, sessions: MutableMapping[str, str]) -> bool:
     """Revoke one session and report whether it was active."""
     return sessions.pop(token, None) is not None
+
+# update so i can do this myself
+# update so i can do this myself
+# update so i can do this myself
+# update so i can do this myself
